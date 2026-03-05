@@ -1,0 +1,33 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-calendars/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-gantt/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-grids/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-layouts/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-notifications/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-richtexteditor/styles/fluent2.css";
+@import "../node_modules/@syncfusion/ej2-treegrid/styles/fluent2.css";
+
+:root {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f6f8fb;
+  color: #0f172a;
+}

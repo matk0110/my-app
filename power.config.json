@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "appId": null,
+  "appDisplayName": "Gantt Chart",
+  "region": "prod",
+  "environmentId": "b5e340a0-8495-e94f-b9ec-0cbc5df59508",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "projects": {
+          "entitySetName": "cr809_projects",
+          "logicalName": "cr809_project"
+        },
+        "assets": {
+          "entitySetName": "cr809_assets",
+          "logicalName": "cr809_asset"
+        },
+        "activities": {
+          "entitySetName": "cr809_activities",
+          "logicalName": "cr809_activity"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
