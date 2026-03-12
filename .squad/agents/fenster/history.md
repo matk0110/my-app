@@ -7,4 +7,5 @@
 
 ## Learnings
 
-<!-- Append new learnings below. Each entry is something lasting about the project. -->
+- ✅ **Test utilities extracted (Hockney setup):** Pure logic has been moved to `src/utils/` (`buildTaskData.ts`, `dashboardCalcs.ts`, `detailPanelHelpers.ts`). When modifying Dashboard or App components, import from these utils for shared logic—this enables independent testing and reduces component complexity.
+

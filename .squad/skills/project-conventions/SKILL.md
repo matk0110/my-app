@@ -25,10 +25,12 @@ Describe a key convention or practice used in this codebase. Be specific about w
 
 ### Testing
 
-<!-- Example: What test framework? Where do tests live? How to run them? -->
-<!-- - Test framework: Jest/Vitest/node:test/etc. -->
-<!-- - Test location: test/, __tests__/, *.test.ts, etc. -->
-<!-- - Run command: npm test, etc. -->
+- Test framework: Vitest (vitest.config.ts)
+- Component testing: @testing-library/react + jsdom
+- Test location: `*.test.ts` / `*.test.tsx` adjacent to source files
+- Run command: `npm test` (single run), `npm run test:watch` (watch mode)
+- Pure logic extracted to `src/utils/` for independent testability
+- Setup file: `src/test-setup.ts` (loads @testing-library/jest-dom matchers)
 
 ### Code Style
 
