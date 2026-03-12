@@ -108,12 +108,27 @@
           "x-ms-dataverse-type": "IntegerType",
           "x-ms-schema-name": "cr809_ProductionTime"
         },
+        "cr809_progress": {
+          "type": "string",
+          "title": "Progress",
+          "x-ms-dataverse-attribute": "cr809_progress",
+          "x-ms-dataverse-type": "IntegerType",
+          "x-ms-schema-name": "cr809_Progress"
+        },
         "cr809_project": {
           "type": "string",
           "title": "Project",
           "x-ms-dataverse-attribute": "cr809_project",
           "x-ms-dataverse-type": "LookupType",
           "x-ms-schema-name": "cr809_Project"
+        },
+        "_cr809_project_value": {
+          "type": "string",
+          "title": "Project (Value)",
+          "x-ms-dataverse-attribute": "_cr809_project_value",
+          "x-ms-dataverse-type": "UniqueidentifierType",
+          "x-ms-schema-name": "cr809_Project_Value",
+          "x-ms-read-only": true
         },
         "cr809_projectname": {
           "type": "string",

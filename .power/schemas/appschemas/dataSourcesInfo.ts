@@ -25,5 +25,12 @@ export const dataSourcesInfo = {
     "primaryKey": "cr809_projectid",
     "dataSourceType": "Dataverse",
     "apis": {}
+  },
+  "cr809_projectrequests": {
+    "tableId": "",
+    "version": "",
+    "primaryKey": "cr809_projectrequestid",
+    "dataSourceType": "Dataverse",
+    "apis": {}
   }
 };

@@ -42,6 +42,7 @@ export interface Cr809_activitiesBase {
   "cr809_ProjectTemplate@odata.bind"?: string;
   cr809_sequence?: string;
   cr809_startdate?: string;
+  cr809_progress?: number;
   cr809_status: Cr809_activitiescr809_status;
   cr809_template?: string;
   importsequencenumber?: string;

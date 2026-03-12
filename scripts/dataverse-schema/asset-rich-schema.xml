@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="cr809_asset" displayname="Asset" primaryidfield="cr809_assetid" primarynamefield="cr809_assetname" disableplugins="false">
+    <fields>
+      <field displayname="Asset" name="cr809_assetid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="cr809_assetname" type="string" />
+      <field displayname="Project" name="cr809_project" type="entityreference" lookupType="cr809_project" />
+      <field displayname="Progress" name="cr809_progress" type="number" />
+      <field displayname="Status" name="cr809_status" type="optionsetvalue" />
+      <field displayname="Asset Type" name="cr809_assettype" type="optionsetvalue" />
+    </fields>
+  </entity>
+</entities>

@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "snapshot:trend": "node scripts/capture-trend-snapshot.mjs",
+    "snapshot:trend:recurring": "powershell -ExecutionPolicy Bypass -File scripts/snapshot-trend-recurring.ps1"
   },
   "dependencies": {
     "@microsoft/power-apps": "^1.0.3",

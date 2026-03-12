@@ -36,6 +36,7 @@ export interface Cr809_assetsBase {
   cr809_description?: string;
   cr809_enddate?: string;
   cr809_location?: string;
+  cr809_progress?: number;
   cr809_productiontime?: string;
   "cr809_Project@odata.bind"?: string;
   "cr809_ProjectTemplate@odata.bind"?: string;

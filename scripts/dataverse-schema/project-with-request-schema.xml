@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="cr809_project" displayname="Project" primaryidfield="cr809_projectid" primarynamefield="cr809_projectname" disableplugins="false">
+    <fields>
+      <field displayname="Project" name="cr809_projectid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="cr809_projectname" type="string" />
+      <field displayname="Start Date" name="cr809_startdate" type="datetime" />
+      <field displayname="End Date" name="cr809_enddate" type="datetime" />
+      <field displayname="Progress" name="cr809_progress" type="number" />
+      <field displayname="Status" name="cr809_status" type="optionsetvalue" />
+      <field displayname="Project Request" name="cr809_projectrequest" type="entityreference" lookupType="cr809_projectrequest" />
+      <field displayname="Description" name="cr809_description" type="string" />
+    </fields>
+  </entity>
+</entities>

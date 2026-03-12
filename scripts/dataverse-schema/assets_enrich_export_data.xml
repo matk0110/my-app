@@ -1,0 +1,1439 @@
+﻿
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2026-03-11T03:17:12.0897117Z">
+  <entity name="cr809_asset" displayname="Asset">
+    <records>
+      <record id="72a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="72a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="High-Throughput Conveyor Drive Package" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-23T00:00:00.0000000" />
+        <field name="cr809_progress" value="42" />
+        <field name="cr809_serialnumber" value="CM-PROD-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: High-Throughput Conveyor Drive Package" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="73a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="73a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Torque-Control Power Tool Controller (Line)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-24T00:00:00.0000000" />
+        <field name="cr809_progress" value="42" />
+        <field name="cr809_serialnumber" value="CM-PROD-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Torque-Control Power Tool Controller (Line)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="74a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="74a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Line Rebalance Workcell Kit (Modular Benches + ESD)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-25T00:00:00.0000000" />
+        <field name="cr809_progress" value="42" />
+        <field name="cr809_serialnumber" value="CM-PROD-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Line Rebalance Workcell Kit (Modular Benches + ESD)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="75a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="75a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="SMED Quick-Change Die Cart" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-26T00:00:00.0000000" />
+        <field name="cr809_progress" value="42" />
+        <field name="cr809_serialnumber" value="CM-PROD-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: SMED Quick-Change Die Cart" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="76a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="76a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Precision Fixture Set (Body-in-White)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="42" />
+        <field name="cr809_serialnumber" value="CM-PROD-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Precision Fixture Set (Body-in-White)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="77a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="77a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Electric Tugger (Line-Side Logistics)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270001" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-28T00:00:00.0000000" />
+        <field name="cr809_progress" value="42" />
+        <field name="cr809_serialnumber" value="CM-PROD-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Electric Tugger (Line-Side Logistics)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="78a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="78a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Tooling Certification Gauge Set" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-05T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-13T00:00:00.0000000" />
+        <field name="cr809_progress" value="28" />
+        <field name="cr809_serialnumber" value="CM-PROD-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Tooling Certification Gauge Set" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="79a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="79a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="OEE/Throughput Dashboard License (Team)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-04T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-12T00:00:00.0000000" />
+        <field name="cr809_progress" value="28" />
+        <field name="cr809_serialnumber" value="CM-PROD-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: OEE/Throughput Dashboard License (Team)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="7aa1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="7aa1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Prototype Build Area Reconfig Package" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-03-20T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-PROD-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Prototype Build Area Reconfig Package" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="7ba1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="7ba1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Automated Paint Gun Cleaning Skid" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-31T04:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-06T00:00:00.0000000" />
+        <field name="cr809_progress" value="6" />
+        <field name="cr809_serialnumber" value="CM-PROD-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Automated Paint Gun Cleaning Skid" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="7ca1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="7ca1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="6-Axis Industrial Robot (Spare/Expansion)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: 6-Axis Industrial Robot (Spare/Expansion)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="7da1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="7da1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Robot Controller Cabinet (Matched)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="86" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Robot Controller Cabinet (Matched)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="7ea1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="7ea1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="PLC Rack + I/O Starter Kit" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="62" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: PLC Rack + I/O Starter Kit" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="7fa1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="7fa1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Robot Offline Programming Seat" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="33" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Robot Offline Programming Seat" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="80a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="80a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="AGV (1.5T Payload Class)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270001" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: AGV (1.5T Payload Class)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="81a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="81a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Robot Cell Safety Fence + Access Kit" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Robot Cell Safety Fence + Access Kit" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="82a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="82a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Vision Camera + Lighting Pack (Automation)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="76" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Vision Camera + Lighting Pack (Automation)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="83a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="83a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Palletizing End-of-Arm Tool (EOAT)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="52" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Palletizing End-of-Arm Tool (EOAT)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="84a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="84a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Automation Spare Parts Bin Set (Standardized)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="38" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Automation Spare Parts Bin Set (Standardized)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="85a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="85a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="PLC Firmware/Config Management Tool" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: PLC Firmware/Config Management Tool" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="86a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="86a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Light Curtain Pair (Category 4)" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Light Curtain Pair (Category 4)" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="87a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="87a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Safety PLC + Relay Pack" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="81" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Safety PLC + Relay Pack" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="88a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="88a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="AI Vision Inspection Station (Camera + PC)" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="57" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: AI Vision Inspection Station (Camera + PC)" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="89a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="89a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Portable CMM Arm (Inspection)" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="23" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Portable CMM Arm (Inspection)" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="8aa1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="8aa1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Torque Tool Calibration Analyzer" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Torque Tool Calibration Analyzer" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="8ba1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="8ba1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Quality Lab Bench + Metrology Setup" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Quality Lab Bench + Metrology Setup" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="8ca1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="8ca1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="NCR/CAPA Tracking License (Team)" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="86" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: NCR/CAPA Tracking License (Team)" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="8da1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="8da1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Safety Incident Reporting App Subscription" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="62" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Safety Incident Reporting App Subscription" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="8ea1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="8ea1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Audit Readiness Document Kit (Templates)" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="28" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Audit Readiness Document Kit (Templates)" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="8fa1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="8fa1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Battery EOL Test Fixture (HV Safety)" />
+        <field name="cr809_project" value="642cd76e-7812-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-27T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-QUAL-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-VIS-001" />
+        <field name="cr809_description" value="Asset aligned to Quality Inspection Vision System Rollout: Battery EOL Test Fixture (HV Safety)" />
+        <field name="cr809_acquisitiondate" value="2026-02-16T06:00:00.0000000Z" />
+      </record>
+      <record id="90a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="90a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="91a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="91a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="76" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="92a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="92a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Ultrasonic Leak Detector" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="52" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Ultrasonic Leak Detector" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="93a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="93a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="33" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="94a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="94a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="CMMS Planning Module Add-on" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: CMMS Planning Module Add-on" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="95a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="95a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Tooling Refurbishment Starter Set" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Tooling Refurbishment Starter Set" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="96a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="96a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="81" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="97a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="97a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="57" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="98a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="98a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="38" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="99a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="99a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="9aa1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="9aa1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Industrial Firewall Appliance (OT Edge)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-07T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Industrial Firewall Appliance (OT Edge)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="9ba1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="9ba1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Managed OT Switch (Layer 3, 24-port)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-08T00:00:00.0000000" />
+        <field name="cr809_progress" value="44" />
+        <field name="cr809_serialnumber" value="CM-DIG-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Managed OT Switch (Layer 3, 24-port)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="9ca1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="9ca1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="MES Integration Connector License" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-09T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: MES Integration Connector License" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="9da1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="9da1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Real-Time Production Dashboard (Site)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-10T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Real-Time Production Dashboard (Site)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="9ea1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="9ea1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Analytics Platform Workspace (Quality/Defect)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-04T00:00:00.0000000" />
+        <field name="cr809_progress" value="73" />
+        <field name="cr809_serialnumber" value="CM-DIG-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Analytics Platform Workspace (Quality/Defect)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="9fa1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="9fa1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Prototype Build Scheduling Tool (Team)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-12T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Prototype Build Scheduling Tool (Team)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="a0a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="a0a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Server Rack + UPS (Plant IT/OT Closet)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-13T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Server Rack + UPS (Plant IT/OT Closet)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="a1a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="a1a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Cybersecurity Hardening Baseline Kit" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-14T00:00:00.0000000" />
+        <field name="cr809_progress" value="44" />
+        <field name="cr809_serialnumber" value="CM-DIG-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Cybersecurity Hardening Baseline Kit" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="a2a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="a2a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Edge Compute Gateway (Industrial PC)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-15T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Edge Compute Gateway (Industrial PC)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="a3a1a308-e210-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="a3a1a308-e210-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Traceability Data Store (Warranty/Recall)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-DIG-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Traceability Data Store (Warranty/Recall)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="e6f4e523-f311-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="e6f4e523-f311-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="High-Throughput Conveyor Drive Package" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-06T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-17T00:00:00.0000000" />
+        <field name="cr809_progress" value="34" />
+        <field name="cr809_serialnumber" value="CM-PROD-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: High-Throughput Conveyor Drive Package" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="e7f4e523-f311-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="e7f4e523-f311-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Torque-Control Power Tool Controller (Line)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-08T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-02T00:00:00.0000000" />
+        <field name="cr809_progress" value="55" />
+        <field name="cr809_serialnumber" value="CM-PROD-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Torque-Control Power Tool Controller (Line)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="e9f4e523-f311-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="e9f4e523-f311-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="SMED Quick-Change Die Cart" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-19T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-PROD-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: SMED Quick-Change Die Cart" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="c3a71e2a-f311-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="c3a71e2a-f311-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Electric Tugger (Line-Side Logistics)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270001" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-20T00:00:00.0000000" />
+        <field name="cr809_progress" value="44" />
+        <field name="cr809_serialnumber" value="CM-PROD-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Electric Tugger (Line-Side Logistics)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="c4a71e2a-f311-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="c4a71e2a-f311-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="OEE/Throughput Dashboard License (Team)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-21T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-PROD-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: OEE/Throughput Dashboard License (Team)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="d3a71e2a-f311-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="d3a71e2a-f311-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Automated Paint Gun Cleaning Skid" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-PROD-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Automated Paint Gun Cleaning Skid" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="b3ae7b80-0012-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="b3ae7b80-0012-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="86" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="dbae7b80-0012-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="dbae7b80-0012-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Ultrasonic Leak Detector" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="62" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Ultrasonic Leak Detector" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="ae419886-0012-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="ae419886-0012-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="CMMS Planning Module Add-on" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="38" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: CMMS Planning Module Add-on" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="df419886-0012-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="df419886-0012-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="01429886-0012-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="01429886-0012-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="16099ade-0712-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="16099ade-0712-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="76" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="2c4d7e81-7812-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="2c4d7e81-7812-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="Automation Spare Parts Bin Set (Standardized)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="52" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Automation Spare Parts Bin Set (Standardized)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="40ea7b87-7812-f111-8341-000d3a34125a">
+        <field name="cr809_assetid" value="40ea7b87-7812-f111-8341-000d3a34125a" />
+        <field name="cr809_assetname" value="PLC Firmware/Config Management Tool" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="23" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: PLC Firmware/Config Management Tool" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="cfe589d6-ae1c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="cfe589d6-ae1c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="test bpf" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+      </record>
+      <record id="af9e82bb-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="af9e82bb-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="b59e82bb-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="b59e82bb-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="CMMS Planning Module Add-on" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: CMMS Planning Module Add-on" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="d803f0c1-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="d803f0c1-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="Tooling Refurbishment Starter Set" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Tooling Refurbishment Starter Set" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="da03f0c1-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="da03f0c1-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="dc03f0c1-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="dc03f0c1-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="de03f0c1-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="de03f0c1-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="e303f0c1-f71c-f111-88b1-000d3a34125a">
+        <field name="cr809_assetid" value="e303f0c1-f71c-f111-88b1-000d3a34125a" />
+        <field name="cr809_assetname" value="RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="fb0e9a26-f311-f111-8341-000d3a341b5f">
+        <field name="cr809_assetid" value="fb0e9a26-f311-f111-8341-000d3a341b5f" />
+        <field name="cr809_assetname" value="Prototype Build Area Reconfig Package" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-23T00:00:00.0000000" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_serialnumber" value="CM-PROD-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Prototype Build Area Reconfig Package" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="7991af96-0712-f111-8341-000d3a341b5f">
+        <field name="cr809_assetid" value="7991af96-0712-f111-8341-000d3a341b5f" />
+        <field name="cr809_assetname" value="Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="8391af96-0712-f111-8341-000d3a341b5f">
+        <field name="cr809_assetid" value="8391af96-0712-f111-8341-000d3a341b5f" />
+        <field name="cr809_assetname" value="Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="81" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="25d9077d-7812-f111-8341-000d3a341b5f">
+        <field name="cr809_assetid" value="25d9077d-7812-f111-8341-000d3a341b5f" />
+        <field name="cr809_assetname" value="AGV (1.5T Payload Class)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270001" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="57" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: AGV (1.5T Payload Class)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="3fd9077d-7812-f111-8341-000d3a341b5f">
+        <field name="cr809_assetid" value="3fd9077d-7812-f111-8341-000d3a341b5f" />
+        <field name="cr809_assetname" value="Robot Cell Safety Fence + Access Kit" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="28" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Robot Cell Safety Fence + Access Kit" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="6f855183-7812-f111-8341-000d3a341b5f">
+        <field name="cr809_assetid" value="6f855183-7812-f111-8341-000d3a341b5f" />
+        <field name="cr809_assetname" value="Vision Camera + Lighting Pack (Automation)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Vision Camera + Lighting Pack (Automation)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="2844b9bd-f71c-f111-88b1-000d3a341b5f">
+        <field name="cr809_assetid" value="2844b9bd-f71c-f111-88b1-000d3a341b5f" />
+        <field name="cr809_assetname" value="Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="be68bb27-f311-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="be68bb27-f311-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Line Rebalance Workcell Kit (Modular Benches + ESD)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-24T00:00:00.0000000" />
+        <field name="cr809_progress" value="35" />
+        <field name="cr809_serialnumber" value="CM-PROD-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Line Rebalance Workcell Kit (Modular Benches + ESD)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="da68bb27-f311-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="da68bb27-f311-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Precision Fixture Set (Body-in-White)" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-18T00:00:00.0000000" />
+        <field name="cr809_progress" value="73" />
+        <field name="cr809_serialnumber" value="CM-PROD-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Precision Fixture Set (Body-in-White)" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="dc68bb27-f311-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="dc68bb27-f311-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Tooling Certification Gauge Set" />
+        <field name="cr809_project" value="577e8790-0712-f111-8341-000d3a34125a" lookupentity="cr809_project" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_startdate" value="2026-03-09T20:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-26T00:00:00.0000000" />
+        <field name="cr809_progress" value="44" />
+        <field name="cr809_serialnumber" value="CM-PROD-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-AGV-001" />
+        <field name="cr809_description" value="Asset aligned to Material Handling AGV Deployment: Tooling Certification Gauge Set" />
+        <field name="cr809_acquisitiondate" value="2026-03-11T00:00:00.0000000Z" />
+      </record>
+      <record id="304dca7d-0012-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="304dca7d-0012-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="33" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Infrared Thermal Camera (Industrial)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="d0f30084-0012-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="d0f30084-0012-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="ecf30084-0012-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="ecf30084-0012-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Tooling Refurbishment Starter Set" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Tooling Refurbishment Starter Set" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="44380a8a-0012-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="44380a8a-0012-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="76" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0009" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Servo Drive Retrofit Package (Press)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="4b380a8a-0012-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="4b380a8a-0012-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="52" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="0ed3d098-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="0ed3d098-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Ultrasonic Leak Detector" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="38" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Ultrasonic Leak Detector" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="9135c99e-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="9135c99e-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Test Cell DAQ Rack (Modernization)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="9635c99e-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="9635c99e-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="CMMS Planning Module Add-on" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0005" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: CMMS Planning Module Add-on" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="e39f5ca5-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="e39f5ca5-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Tooling Refurbishment Starter Set" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="81" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0006" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Tooling Refurbishment Starter Set" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="ec9f5ca5-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="ec9f5ca5-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="57" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0007" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Resistance Weld Electrode Dressing Unit" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="56ebdcab-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="56ebdcab-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="23" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Lubrication PM Kit (Plant Standard)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="6c2cc3e7-0712-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="6c2cc3e7-0712-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_project" value="1fa7e380-c911-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-26T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0010" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: RFID Tool Crib Inventory Subscription" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="14e9cf74-7812-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="14e9cf74-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="6-Axis Industrial Robot (Spare/Expansion)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: 6-Axis Industrial Robot (Spare/Expansion)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="29e9cf74-7812-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="29e9cf74-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Robot Controller Cabinet (Matched)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="86" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0002" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Robot Controller Cabinet (Matched)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="3fe5ca7a-7812-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="3fe5ca7a-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="PLC Rack + I/O Starter Kit" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="62" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: PLC Rack + I/O Starter Kit" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="49e5ca7a-7812-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="49e5ca7a-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Robot Offline Programming Seat" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="28" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0004" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Robot Offline Programming Seat" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="e8a70f81-7812-f111-8341-000d3a353b05">
+        <field name="cr809_assetid" value="e8a70f81-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_assetname" value="Palletizing End-of-Arm Tool (EOAT)" />
+        <field name="cr809_project" value="acf3f3d1-ff11-f111-8341-000d3a353b05" lookupentity="cr809_project" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_startdate" value="2026-02-21T00:00:00.0000000" />
+        <field name="cr809_enddate" value="2026-04-22T00:00:00.0000000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="CM-AUTO-0008" />
+        <field name="cr809_location" value="Plant 1 - PRJ-WELD-001" />
+        <field name="cr809_description" value="Asset aligned to Weld Cell Robot Reprogramming: Palletizing End-of-Arm Tool (EOAT)" />
+        <field name="cr809_acquisitiondate" value="2026-02-22T06:00:00.0000000Z" />
+      </record>
+      <record id="1239bbba-f71c-f111-88b1-000d3a353b05">
+        <field name="cr809_assetid" value="1239bbba-f71c-f111-88b1-000d3a353b05" />
+        <field name="cr809_assetname" value="Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0001" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Predictive Vibration Sensor Kit (10-pack)" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="2b39bbba-f71c-f111-88b1-000d3a353b05">
+        <field name="cr809_assetid" value="2b39bbba-f71c-f111-88b1-000d3a353b05" />
+        <field name="cr809_assetname" value="Ultrasonic Leak Detector" />
+        <field name="cr809_project" value="ef084d29-f71c-f111-88b1-000d3a353b05" lookupentity="cr809_project" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_serialnumber" value="CM-MAIN-0003" />
+        <field name="cr809_location" value="Plant 1 - PRJ-EVB-001" />
+        <field name="cr809_description" value="Asset aligned to EV Battery Pack Pilot Line Setup: Ultrasonic Leak Detector" />
+        <field name="cr809_acquisitiondate" value="2026-02-27T06:00:00.0000000Z" />
+      </record>
+      <record id="0f1edef0-cc01-48ff-8f2b-48491479900a">
+        <field name="cr809_assetid" value="0f1edef0-cc01-48ff-8f2b-48491479900a" />
+        <field name="cr809_assetname" value="Conference Room B" />
+        <field name="cr809_assettype" value="804270002" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_progress" value="100" />
+        <field name="cr809_serialnumber" value="CRB-2026-005" />
+        <field name="cr809_location" value="HQ Floor 2" />
+        <field name="cr809_description" value="Room for campaign meetings" />
+        <field name="cr809_acquisitiondate" value="2026-03-02T16:00:00.0000000Z" />
+      </record>
+      <record id="686a34d2-af4d-4dd6-b794-617ca8b553d6">
+        <field name="cr809_assetid" value="686a34d2-af4d-4dd6-b794-617ca8b553d6" />
+        <field name="cr809_assetname" value="Server Rack SR-10" />
+        <field name="cr809_assettype" value="804270003" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_progress" value="76" />
+        <field name="cr809_serialnumber" value="SR-10-003" />
+        <field name="cr809_location" value="Data Center 2" />
+        <field name="cr809_description" value="Retired server rack, replaced in migration" />
+        <field name="cr809_acquisitiondate" value="2026-02-21T16:00:00.0000000Z" />
+      </record>
+      <record id="60595d89-0b8f-44c6-96f4-6a9e4e5e16f6">
+        <field name="cr809_assetid" value="60595d89-0b8f-44c6-96f4-6a9e4e5e16f6" />
+        <field name="cr809_assetname" value="Adobe Creative Cloud" />
+        <field name="cr809_assettype" value="804270004" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_progress" value="52" />
+        <field name="cr809_serialnumber" value="ACC-2026-004" />
+        <field name="cr809_location" value="Remote" />
+        <field name="cr809_description" value="Design software subscription" />
+        <field name="cr809_acquisitiondate" value="2026-01-11T16:00:00.0000000Z" />
+      </record>
+      <record id="df247f82-11af-41ee-9653-93f68a70aa3c">
+        <field name="cr809_assetid" value="df247f82-11af-41ee-9653-93f68a70aa3c" />
+        <field name="cr809_assetname" value="Excavator XE200" />
+        <field name="cr809_assettype" value="804270000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_progress" value="33" />
+        <field name="cr809_serialnumber" value="SN-EX200-001" />
+        <field name="cr809_location" value="Site A" />
+        <field name="cr809_description" value="Main excavator for earthworks" />
+        <field name="cr809_acquisitiondate" value="2025-12-16T16:00:00.0000000Z" />
+      </record>
+      <record id="cf3954e7-8bd5-41c9-aaea-e0c5ba9866d6">
+        <field name="cr809_assetid" value="cf3954e7-8bd5-41c9-aaea-e0c5ba9866d6" />
+        <field name="cr809_assetname" value="Ford Transit Van" />
+        <field name="cr809_assettype" value="804270001" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_progress" value="0" />
+        <field name="cr809_serialnumber" value="FTV-2026-002" />
+        <field name="cr809_location" value="Garage 3" />
+        <field name="cr809_description" value="Transport van for mobile team" />
+        <field name="cr809_acquisitiondate" value="2026-01-06T16:00:00.0000000Z" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

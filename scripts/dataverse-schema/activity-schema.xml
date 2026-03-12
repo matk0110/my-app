@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="cr809_activity" displayname="Activity" primaryidfield="cr809_activityid" primarynamefield="cr809_activityname" disableplugins="false">
+    <fields>
+      <field displayname="Activity" name="cr809_activityid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="cr809_activityname" type="string" />
+      <field displayname="Asset ID" name="cr809_assetid" type="string" />
+      <field displayname="Start Date" name="cr809_startdate" type="datetime" />
+      <field displayname="End Date" name="cr809_enddate" type="datetime" />
+      <field displayname="Status" name="cr809_status" type="optionsetvalue" />
+      <field displayname="Progress" name="cr809_progress" type="number" />
+      <field displayname="Sequence" name="cr809_sequence" type="number" />
+      <field displayname="Duration" name="cr809_duration" type="number" />
+    </fields>
+  </entity>
+</entities>

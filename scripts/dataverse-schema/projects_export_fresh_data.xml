@@ -1,0 +1,36 @@
+﻿
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2026-03-10T21:29:36.4897320Z">
+  <entity name="cr809_project" displayname="Project">
+    <records>
+      <record id="577e8790-0712-f111-8341-000d3a34125a">
+        <field name="cr809_projectid" value="577e8790-0712-f111-8341-000d3a34125a" />
+        <field name="cr809_projectname" value="Conveyor Restructure" />
+        <field name="cr809_startdate" value="2026-02-09T05:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-05-29T04:00:00.0000000Z" />
+        <field name="cr809_progress" value="71" />
+      </record>
+      <record id="1fa7e380-c911-f111-8341-000d3a353b05">
+        <field name="cr809_projectid" value="1fa7e380-c911-f111-8341-000d3a353b05" />
+        <field name="cr809_projectname" value="Assembly Ergonomics Improvement Initiative" />
+        <field name="cr809_startdate" value="2026-01-06T05:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-03-28T00:00:00.0000000Z" />
+        <field name="cr809_progress" value="99" />
+      </record>
+      <record id="acf3f3d1-ff11-f111-8341-000d3a353b05">
+        <field name="cr809_projectid" value="acf3f3d1-ff11-f111-8341-000d3a353b05" />
+        <field name="cr809_projectname" value="paint line refurbishment" />
+        <field name="cr809_startdate" value="2026-03-02T05:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-04-02T00:00:00.0000000Z" />
+        <field name="cr809_progress" value="0" />
+      </record>
+      <record id="642cd76e-7812-f111-8341-000d3a353b05">
+        <field name="cr809_projectid" value="642cd76e-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_projectname" value="Demo Dry Run" />
+        <field name="cr809_startdate" value="2026-01-01T05:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-06-30T04:00:00.0000000Z" />
+        <field name="cr809_progress" value="20" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

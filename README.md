@@ -16,6 +16,30 @@ VITE_SYNCFUSION_LICENSE_KEY="your-key-here"
 
 Store this in `my-app/.env.local` (already ignored by `.gitignore` via `*.local`).
 
+## Insights Trend History
+
+The Insights dashboard now supports persisted trend history from `public/insights/trend-history.json`.
+
+1. Create a snapshot from the latest Dataverse export zips:
+
+```powershell
+npm run snapshot:trend
+```
+
+2. Optionally run recurring snapshots (hourly by default):
+
+```powershell
+npm run snapshot:trend:recurring
+```
+
+3. To include fresh exports on each run, call the script directly:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/snapshot-trend-recurring.ps1 -ExportBeforeCapture
+```
+
+The recurring script appends one deduplicated point per date and keeps a bounded history.
+
 ## Next Step: Connect to Dataverse
 
 For Power Apps code apps, use PAC CLI to add Dataverse tables as data sources. This generates typed models/services under `generated/`.

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="cr809_projectrequest" displayname="Project Requests" primaryidfield="cr809_projectrequestid" primarynamefield="cr809_requesttitle" disableplugins="false">
+    <fields>
+      <field displayname="Project Request" name="cr809_projectrequestid" type="guid" primaryKey="true" />
+      <field displayname="Request ID" name="cr809_requestid" type="string" />
+      <field displayname="Request Title" name="cr809_requesttitle" type="string" />
+      <field displayname="Requestor" name="cr809_requestor" type="string" />
+      <field displayname="Requestor Email" name="cr809_requestoremail" type="string" />
+      <field displayname="Request Date" name="cr809_requestdate" type="datetime" />
+      <field displayname="Desired Start" name="cr809_desiredstartdate" type="datetime" />
+      <field displayname="Desired End" name="cr809_desiredenddate" type="datetime" />
+      <field displayname="Status" name="cr809_status" type="optionsetvalue" />
+      <field displayname="Classification" name="cr809_classification" type="optionsetvalue" />
+      <field displayname="AI Suggestion" name="cr809_aiclassificationsuggestion" type="string" />
+      <field displayname="Project Template" name="cr809_projecttemplate" type="entityreference" lookupType="cr809_projecttemplate" />
+      <field displayname="Assigned PM" name="cr809_assignedpm" type="entityreference" lookupType="systemuser" />
+      <field displayname="Approved By" name="cr809_approvedby" type="entityreference" lookupType="systemuser" />
+      <field displayname="Approval Date" name="cr809_approvaldate" type="datetime" />
+      <field displayname="Comments" name="cr809_comments" type="string" />
+    </fields>
+  </entity>
+</entities>

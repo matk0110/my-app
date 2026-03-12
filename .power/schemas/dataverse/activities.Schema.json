@@ -37,6 +37,14 @@
           "x-ms-dataverse-type": "LookupType",
           "x-ms-schema-name": "cr809_Asset"
         },
+        "_cr809_asset_value": {
+          "type": "string",
+          "title": "Asset (Value)",
+          "x-ms-dataverse-attribute": "_cr809_asset_value",
+          "x-ms-dataverse-type": "UniqueidentifierType",
+          "x-ms-schema-name": "cr809_Asset_Value",
+          "x-ms-read-only": true
+        },
         "cr809_assetid": {
           "type": "string",
           "title": "Asset ID",
@@ -201,6 +209,13 @@
           "x-ms-dataverse-attribute": "cr809_sequence",
           "x-ms-dataverse-type": "IntegerType",
           "x-ms-schema-name": "cr809_Sequence"
+        },
+        "cr809_progress": {
+          "type": "string",
+          "title": "Progress",
+          "x-ms-dataverse-attribute": "cr809_progress",
+          "x-ms-dataverse-type": "IntegerType",
+          "x-ms-schema-name": "cr809_Progress"
         },
         "cr809_startdate": {
           "type": "string",

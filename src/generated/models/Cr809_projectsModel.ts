@@ -31,6 +31,7 @@ export interface Cr809_projectsBase {
   "cr809_ProjectRequest@odata.bind": string;
   "cr809_ProjectTemplate@odata.bind"?: string;
   cr809_risklevel?: string;
+  cr809_progress?: number;
   cr809_startdate?: string;
   cr809_status: Cr809_projectscr809_status;
   importsequencenumber?: string;

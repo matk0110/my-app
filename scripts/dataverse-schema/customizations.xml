@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.26031.139" SolutionPackageVersion="9.2" languagecode="1033" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities>
+    <Entity>
+      <Name LocalizedName="Activity" OriginalName="Activity">cr809_activity</Name>
+      <EntityInfo>
+        <entity Name="cr809_activity" typeCode="">
+          <LocalizedNames>
+            <LocalizedName description="Activity" languagecode="1033" />
+          </LocalizedNames>
+          <LocalizedCollectionNames>
+            <LocalizedCollectionName description="Activities" languagecode="1033" />
+          </LocalizedCollectionNames>
+        </entity>
+      </EntityInfo>
+      <RibbonDiffXml />
+      <FormXml />
+      <SavedQueries />
+      <Workflows />
+      <EntityRelationships />
+      <Roles RlvInherited="0" />
+      <Dashboards />
+      <FieldPermissionProfile />
+      <EntitySetName>cr809_activities</EntitySetName>
+      <EntityAttributes>
+        <attribute PhysicalName="cr809_progress">
+          <Type>integer</Type>
+          <Name>cr809_progress</Name>
+          <LogicalName>cr809_progress</LogicalName>
+          <RequiredLevel>None</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind ValidForForm ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <MinValue>0</MinValue>
+          <MaxValue>100</MaxValue>
+          <Format>None</Format>
+          <DisplayName>
+            <Descriptions>
+              <Description description="Progress" languagecode="1033" />
+            </Descriptions>
+          </DisplayName>
+          <Descriptions>
+            <Description description="" languagecode="1033" />
+          </Descriptions>
+        </attribute>
+      </EntityAttributes>
+    </Entity>
+  </Entities>
+  <Roles />
+  <Workflows />
+  <FieldSecurityProfiles />
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <SolutionPluginAssemblies />
+  <PluginSteps />
+  <PluginImages />
+  <ServiceEndpoints />
+  <WebResources />
+  <Dashboards />
+  <Reports />
+  <AppModules />
+  <AppModuleSiteMaps />
+  <Documents />
+  <ConnectionReferences />
+  <AIModels />
+  <EnvironmentVariableDefinitions />
+  <EnvironmentVariableValues />
+</ImportExportXml>

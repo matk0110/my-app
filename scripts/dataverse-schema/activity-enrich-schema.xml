@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entities>
+  <entity name="cr809_activity" displayname="Activity" primaryidfield="cr809_activityid" primarynamefield="cr809_activityname" disableplugins="false">
+    <fields>
+      <field displayname="Activity" name="cr809_activityid" type="guid" primaryKey="true" />
+      <field displayname="Name" name="cr809_activityname" type="string" />
+      <field displayname="Project" name="cr809_project" type="entityreference" lookupType="cr809_project" />
+      <field displayname="Asset" name="cr809_asset" type="entityreference" lookupType="cr809_asset" />
+      <field displayname="Asset Code" name="cr809_assetid" type="string" />
+      <field displayname="Status" name="cr809_status" type="optionsetvalue" />
+      <field displayname="Is Vendor Activity" name="cr809_isvendoractivity" type="optionsetvalue" />
+      <field displayname="Progress" name="cr809_progress" type="number" />
+      <field displayname="Start Date" name="cr809_startdate" type="datetime" />
+      <field displayname="End Date" name="cr809_enddate" type="datetime" />
+      <field displayname="Due Date" name="cr809_duedate" type="datetime" />
+      <field displayname="Sequence" name="cr809_sequence" type="number" />
+      <field displayname="Duration" name="cr809_duration" type="number" />
+      <field displayname="Assigned To" name="cr809_assignedto" type="entityreference" lookupType="systemuser" />
+      <field displayname="Comments" name="cr809_comments" type="string" />
+      <field displayname="Deliverables" name="cr809_deliverables" type="string" />
+      <field displayname="Template" name="cr809_template" type="string" />
+    </fields>
+  </entity>
+</entities>

@@ -1,0 +1,564 @@
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2026-03-10T21:39:49.9486262Z">
+  <entity name="cr809_projectrequest" displayname="Project Requests">
+    <records>
+      <record id="6b663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="6b663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0001" />
+        <field name="cr809_requesttitle" value="Paint Shop Conveyor Upgrade" />
+        <field name="cr809_requestdate" value="2025-12-03T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2025-12-13T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-20T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_approvaldate" value="2025-12-06T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Upgrade conveyor systems in the paint shop to improve vehicle throughput, reduce bottlenecks, and enhance coating quality consistency across all production lines." />
+      </record>
+      <record id="6c663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="6c663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0002" />
+        <field name="cr809_requesttitle" value="Weld Cell Robot Reprogramming" />
+        <field name="cr809_requestdate" value="2026-02-02T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-21T00:00:00" />
+        <field name="cr809_desiredenddate" value="2026-04-22T00:00:00" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_approvaldate" value="2026-02-07T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Reprogram welding cell robots to optimize weld sequencing, improve cycle times, and ensure compatibility with new vehicle body designs entering production." />
+        <field name="cr809_requestor" value="Matthew Karr" />
+        <field name="cr809_requestoremail" value="admin@M365x38311559.onmicrosoft.com" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" />
+        <field name="cr809_assignedpm" value="2c184834-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Allan Deyoung" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+      </record>
+      <record id="6d663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="6d663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0003" />
+        <field name="cr809_requesttitle" value="Engine Assembly Line Balancing" />
+        <field name="cr809_requestdate" value="2025-12-24T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-10T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-24T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_approvaldate" value="2025-12-27T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Rebalance engine assembly line workstations to eliminate production constraints, reduce takt time variability, and improve overall equipment effectiveness (OEE)." />
+      </record>
+      <record id="6e663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="6e663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0004" />
+        <field name="cr809_requesttitle" value="Stamping Press Safety Retrofit" />
+        <field name="cr809_requestdate" value="2026-01-21T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-15T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-18T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_approvaldate" value="2026-01-29T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Install updated safety guards, light curtains, and emergency stop systems on stamping presses to meet current OSHA regulations and reduce workplace incidents." />
+      </record>
+      <record id="6f663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="6f663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0005" />
+        <field name="cr809_requesttitle" value="Body Shop Fixture Replacement" />
+        <field name="cr809_requestdate" value="2025-12-31T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-15T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-02-19T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_approvaldate" value="2026-01-07T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Replace aging body shop fixtures with precision-engineered tooling to improve dimensional accuracy and reduce body-in-white quality defects." />
+      </record>
+      <record id="70663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="70663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0006" />
+        <field name="cr809_requesttitle" value="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_requestdate" value="2026-01-29T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-26T00:00:00" />
+        <field name="cr809_desiredenddate" value="2026-05-16T00:00:00" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_approvaldate" value="2026-02-10T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Establish a dedicated pilot production line for EV battery pack assembly, including cell stacking, module integration, and thermal management system installation." />
+        <field name="cr809_requestor" value="Matthew Karr" />
+        <field name="cr809_requestoremail" value="admin@M365x38311559.onmicrosoft.com" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" />
+        <field name="cr809_assignedpm" value="2c184834-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Allan Deyoung" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+      </record>
+      <record id="71663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="71663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0007" />
+        <field name="cr809_requesttitle" value="Powertrain Test Cell Modernization" />
+        <field name="cr809_requestdate" value="2025-11-28T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2025-12-24T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-04-05T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_approvaldate" value="2025-12-12T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Modernize powertrain dynamometer test cells with advanced data acquisition systems, automated test protocols, and real-time performance analytics." />
+      </record>
+      <record id="72663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="72663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0008" />
+        <field name="cr809_requesttitle" value="Final Assembly Line Throughput Improvement" />
+        <field name="cr809_requestdate" value="2026-01-15T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-14T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-16T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_approvaldate" value="2026-01-26T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Implement lean manufacturing principles to increase final assembly line throughput by 15% while maintaining quality standards and worker safety." />
+      </record>
+      <record id="73663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="73663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0009" />
+        <field name="cr809_requesttitle" value="Plant PLC Firmware Standardization" />
+        <field name="cr809_requestdate" value="2026-02-13T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-04T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-29T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_approvaldate" value="2026-02-24T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Standardize PLC firmware versions across all plant equipment to simplify maintenance, improve cybersecurity posture, and enable predictive diagnostics." />
+      </record>
+      <record id="74663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="74663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0010" />
+        <field name="cr809_requesttitle" value="Robotics Preventive Maintenance Program" />
+        <field name="cr809_requestdate" value="2026-02-12T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-16T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-22T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_approvaldate" value="2026-02-25T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Deploy a comprehensive preventive maintenance program for all robotic systems including scheduled inspections, lubrication, and component replacement schedules." />
+      </record>
+      <record id="75663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="75663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0011" />
+        <field name="cr809_requesttitle" value="Material Handling AGV Deployment" />
+        <field name="cr809_requestdate" value="2026-02-20T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-10T00:00:00" />
+        <field name="cr809_desiredenddate" value="2026-04-13T00:00:00" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_approvaldate" value="2026-03-01T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Deploy autonomous guided vehicles (AGVs) for material transport between warehouse and production lines to reduce manual handling and improve delivery timing." />
+        <field name="cr809_requestor" value="Matthew Karr" />
+        <field name="cr809_requestoremail" value="admin@M365x38311559.onmicrosoft.com" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" />
+        <field name="cr809_assignedpm" value="2c184834-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Allan Deyoung" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+      </record>
+      <record id="76663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="76663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0012" />
+        <field name="cr809_requesttitle" value="Quality Inspection Vision System Rollout" />
+        <field name="cr809_requestdate" value="2026-01-29T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-15T00:00:00" />
+        <field name="cr809_desiredenddate" value="2026-04-27T00:00:00" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_approvaldate" value="2026-02-01T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Roll out AI-powered vision inspection systems at key quality checkpoints to detect surface defects, assembly errors, and dimensional non-conformances in real-time." />
+        <field name="cr809_requestor" value="Matthew Karr" />
+        <field name="cr809_requestoremail" value="admin@M365x38311559.onmicrosoft.com" />
+        <field name="cr809_projecttemplate" value="1c73e483-15df-4dba-9bb3-b1bed3bc84ba" lookupentity="cr809_projecttemplate" />
+        <field name="cr809_assignedpm" value="2c184834-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Allan Deyoung" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+      </record>
+      <record id="77663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="77663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0013" />
+        <field name="cr809_requesttitle" value="Die Changeover Time Reduction Initiative" />
+        <field name="cr809_requestdate" value="2025-11-27T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2025-12-22T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-22T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_approvaldate" value="2025-12-10T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Implement SMED methodology to reduce stamping die changeover time by 40%, increasing press availability and production flexibility." />
+      </record>
+      <record id="78663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="78663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0014" />
+        <field name="cr809_requesttitle" value="Paint Booth Emissions Compliance Upgrade" />
+        <field name="cr809_requestdate" value="2026-02-20T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-13T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-09T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_approvaldate" value="2026-03-02T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Upgrade paint booth ventilation, filtration, and VOC capture systems to ensure compliance with updated EPA emissions regulations and environmental permits." />
+      </record>
+      <record id="79663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="79663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0015" />
+        <field name="cr809_requesttitle" value="Engine Line Tooling Refurbishment" />
+        <field name="cr809_requestdate" value="2026-02-16T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-05T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-07T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_approvaldate" value="2026-02-21T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Refurbish worn tooling on engine machining and assembly lines to restore dimensional accuracy and extend equipment service life by 5+ years." />
+      </record>
+      <record id="7a663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="7a663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0016" />
+        <field name="cr809_requesttitle" value="Weld Tip Life Optimization Project" />
+        <field name="cr809_requestdate" value="2026-02-21T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-23T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-07-02T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_approvaldate" value="2026-03-07T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Optimize resistance spot welding parameters and electrode maintenance schedules to extend weld tip life and reduce consumable costs by 25%." />
+      </record>
+      <record id="7b663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="7b663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0017" />
+        <field name="cr809_requesttitle" value="Plant Network Segmentation (OT)" />
+        <field name="cr809_requestdate" value="2026-01-31T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-22T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-04-18T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Digital" />
+        <field name="cr809_approvaldate" value="2026-02-14T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Segment plant operational technology (OT) networks from enterprise IT systems to enhance cybersecurity and protect critical manufacturing assets from threats." />
+      </record>
+      <record id="7c663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="7c663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0018" />
+        <field name="cr809_requesttitle" value="Assembly Torque Tool Calibration Program" />
+        <field name="cr809_requestdate" value="2025-12-25T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-10T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-26T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_approvaldate" value="2025-12-28T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Implement a plant-wide torque tool calibration and verification program to ensure all critical fastening operations meet engineering specifications." />
+      </record>
+      <record id="7d663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="7d663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0019" />
+        <field name="cr809_requesttitle" value="Supplier Tooling Readiness Validation" />
+        <field name="cr809_requestdate" value="2026-02-16T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-20T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-27T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_approvaldate" value="2026-03-02T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Validate tooling readiness and quality capability at tier-1 suppliers prior to production launch to prevent supply chain disruptions and quality issues." />
+      </record>
+      <record id="7e663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="7e663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0020" />
+        <field name="cr809_requesttitle" value="Prototype Build Area Reconfiguration" />
+        <field name="cr809_requestdate" value="2025-12-12T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2025-12-28T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-02-12T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_approvaldate" value="2025-12-17T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Reconfigure the prototype build area layout to support simultaneous development of multiple vehicle programs and reduce prototype build cycle time." />
+      </record>
+      <record id="7f663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="7f663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0021" />
+        <field name="cr809_requesttitle" value="Press Shop Energy Efficiency Upgrade" />
+        <field name="cr809_requestdate" value="2026-02-13T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-21T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-17T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_comments" value="Install energy-efficient servo press drives and power recovery systems to reduce press shop electricity consumption by 20% and lower carbon footprint." />
+      </record>
+      <record id="80663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="80663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0022" />
+        <field name="cr809_requesttitle" value="Body Line Model Changeover Prep" />
+        <field name="cr809_requestdate" value="2026-02-07T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-16T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-25T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_comments" value="Prepare body assembly line tooling, fixtures, and robot programs for upcoming model year changeover, minimizing production downtime during transition." />
+      </record>
+      <record id="81663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="81663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0023" />
+        <field name="cr809_requesttitle" value="Battery Module End-of-Line Testing" />
+        <field name="cr809_requestdate" value="2026-01-20T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-13T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-11T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_comments" value="Develop comprehensive end-of-line testing protocols for battery modules including capacity verification, thermal cycling, and high-voltage safety checks." />
+      </record>
+      <record id="82663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="82663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0024" />
+        <field name="cr809_requesttitle" value="Manufacturing Execution System Enhancement" />
+        <field name="cr809_requestdate" value="2026-01-19T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-24T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-17T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Digital" />
+        <field name="cr809_comments" value="Enhance MES capabilities with real-time production tracking, automated work order management, and integration with enterprise ERP systems." />
+      </record>
+      <record id="83663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="83663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0025" />
+        <field name="cr809_requesttitle" value="Plant Safety Incident Tracking System" />
+        <field name="cr809_requestdate" value="2026-01-11T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-09T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-16T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_comments" value="Deploy a digital safety incident tracking and reporting system to improve root cause analysis, corrective action tracking, and regulatory compliance." />
+      </record>
+      <record id="84663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="84663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0026" />
+        <field name="cr809_requesttitle" value="Robotic Palletizing Cell Installation" />
+        <field name="cr809_requestdate" value="2026-01-03T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-25T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-03T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_comments" value="Install robotic palletizing cells at end-of-line packaging stations to automate finished goods handling and improve warehouse loading efficiency." />
+      </record>
+      <record id="85663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="85663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0027" />
+        <field name="cr809_requesttitle" value="Final Inspection Defect Analytics" />
+        <field name="cr809_requestdate" value="2026-01-28T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-12T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-16T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_comments" value="Implement advanced analytics platform to analyze final inspection data, identify defect trends, and predict quality issues before they impact customers." />
+      </record>
+      <record id="86663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="86663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0028" />
+        <field name="cr809_requesttitle" value="Line Side Kitting Optimization" />
+        <field name="cr809_requestdate" value="2025-11-25T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2025-12-15T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-04-09T00:00:00.0000000" />
+        <field name="cr809_status" value="804270002" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_comments" value="Optimize line-side parts kitting processes to reduce inventory footprint, improve part availability, and decrease assembly line stoppages due to material shortages." />
+      </record>
+      <record id="87663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="87663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0029" />
+        <field name="cr809_requesttitle" value="Paint Line Color Changeover Reduction" />
+        <field name="cr809_requestdate" value="2026-01-28T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-14T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-13T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_comments" value="Reduce paint line color changeover time through improved flush procedures, automated gun cleaning, and optimized scheduling to increase painting capacity." />
+      </record>
+      <record id="88663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="88663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0030" />
+        <field name="cr809_requesttitle" value="Weld Quality Data Collection Expansion" />
+        <field name="cr809_requestdate" value="2026-01-19T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-09T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-20T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_comments" value="Expand weld quality monitoring data collection to include all critical welds, enabling comprehensive traceability and continuous process improvement." />
+      </record>
+      <record id="89663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="89663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0031" />
+        <field name="cr809_requesttitle" value="Assembly Ergonomics Improvement Initiative" />
+        <field name="cr809_requestdate" value="2025-11-30T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2025-12-14T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-28T00:00:00.0000000" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_projecttemplate" value="1c73e483-15df-4dba-9bb3-b1bed3bc84ba" lookupentity="cr809_projecttemplate" lookupentityname="Production" />
+        <field name="cr809_assignedpm" value="2c184834-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Allan Deyoung" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+        <field name="cr809_approvaldate" value="2026-01-06T05:00:00.0000000Z" />
+        <field name="cr809_comments" value="Assess and improve workstation ergonomics across assembly operations to reduce repetitive strain injuries and improve worker comfort and productivity." />
+      </record>
+      <record id="8a663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="8a663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0032" />
+        <field name="cr809_requesttitle" value="Tool Crib Digital Inventory System" />
+        <field name="cr809_requestdate" value="2026-02-20T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-14T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-04-19T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_comments" value="Implement RFID-based digital inventory management system for the tool crib to improve tool availability, reduce search time, and prevent tool hoarding." />
+      </record>
+      <record id="8b663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="8b663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0033" />
+        <field name="cr809_requesttitle" value="Shutdown Maintenance Planning System" />
+        <field name="cr809_requestdate" value="2026-02-10T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-24T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-29T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_comments" value="Deploy a maintenance planning system to optimize annual shutdown activities, resource allocation, and critical path scheduling for maximum efficiency." />
+      </record>
+      <record id="8c663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="8c663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0034" />
+        <field name="cr809_requesttitle" value="Plant Asset Lifecycle Tracking" />
+        <field name="cr809_requestdate" value="2025-12-28T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-13T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-08T00:00:00.0000000" />
+        <field name="cr809_status" value="804270002" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_comments" value="Implement a comprehensive asset lifecycle tracking system to monitor equipment condition, maintenance history, and optimize replacement timing decisions." />
+      </record>
+      <record id="8d663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="8d663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0035" />
+        <field name="cr809_requesttitle" value="Automation Spare Parts Standardization" />
+        <field name="cr809_requestdate" value="2025-12-29T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-18T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-03-16T00:00:00.0000000" />
+        <field name="cr809_status" value="804270002" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_comments" value="Standardize automation spare parts across robot types and PLC platforms to reduce inventory costs and improve mean time to repair (MTTR)." />
+      </record>
+      <record id="8e663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="8e663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0036" />
+        <field name="cr809_requesttitle" value="Prototype Vehicle Build Scheduling" />
+        <field name="cr809_requestdate" value="2026-02-18T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-11T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-07T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Digital" />
+        <field name="cr809_comments" value="Develop an integrated scheduling system for prototype vehicle builds to coordinate engineering releases, parts availability, and build team assignments." />
+      </record>
+      <record id="8f663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="8f663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0037" />
+        <field name="cr809_requesttitle" value="Manufacturing Compliance Audit Readiness" />
+        <field name="cr809_requestdate" value="2026-01-19T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-23T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-06-29T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Quality" />
+        <field name="cr809_comments" value="Prepare plant documentation, procedures, and training records for upcoming IATF 16949 and ISO 14001 compliance audits." />
+      </record>
+      <record id="90663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="90663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0038" />
+        <field name="cr809_requesttitle" value="Battery Pack Traceability System" />
+        <field name="cr809_requestdate" value="2025-12-16T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-01T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-02-27T00:00:00.0000000" />
+        <field name="cr809_status" value="804270002" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Digital" />
+        <field name="cr809_comments" value="Implement end-to-end battery pack traceability system tracking cell origins, assembly dates, test results, and installation records for warranty and recall support." />
+      </record>
+      <record id="91663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="91663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0039" />
+        <field name="cr809_requesttitle" value="Plant Capacity Expansion Feasibility Study" />
+        <field name="cr809_requestdate" value="2026-01-30T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-20T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-24T00:00:00.0000000" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_classification" value="804270002" />
+        <field name="cr809_aiclassificationsuggestion" value="Production" />
+        <field name="cr809_comments" value="Conduct engineering feasibility study for plant capacity expansion including facility layout options, equipment requirements, and capital investment analysis." />
+      </record>
+      <record id="92663d58-da10-f111-8341-000d3a34125a">
+        <field name="cr809_projectrequestid" value="92663d58-da10-f111-8341-000d3a34125a" />
+        <field name="cr809_requestid" value="ReqId-0040" />
+        <field name="cr809_requesttitle" value="Robotics Cell Safety Validation" />
+        <field name="cr809_requestdate" value="2025-12-31T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-01-17T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-05-17T00:00:00.0000000" />
+        <field name="cr809_status" value="804270002" />
+        <field name="cr809_classification" value="804270001" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_comments" value="Perform comprehensive safety validation of all robotics cells including risk assessments, safeguarding verification, and collaborative robot force limiting tests." />
+      </record>
+      <record id="6ed1cbc0-fa11-f111-8341-000d3a341b5f">
+        <field name="cr809_projectrequestid" value="6ed1cbc0-fa11-f111-8341-000d3a341b5f" />
+        <field name="cr809_requestid" value="ReqId-0001" />
+        <field name="cr809_requesttitle" value="paint line refurbishment" />
+        <field name="cr809_requestor" value="Matthew Karr" />
+        <field name="cr809_requestoremail" value="admin@M365x38311559.onmicrosoft.com" />
+        <field name="cr809_requestdate" value="2026-02-24T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-03-02T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-04-02T00:00:00.0000000" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_aiclassificationsuggestion" value="Maintenance" />
+        <field name="cr809_projecttemplate" value="ff08a809-b0ea-4d72-aa81-d50c10f83568" lookupentity="cr809_projecttemplate" lookupentityname="Maintenance" />
+        <field name="cr809_assignedpm" value="1dc6fb31-3109-f111-8406-000d3a34125a" lookupentity="systemuser" lookupentityname="Megan Bowen" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+        <field name="cr809_comments" value="Correct task ownership and approval routing for an existing paint line refurbishment project after recent team role changes. Update assigned owners, adjust approval fields, and realign responsibility mappings so notifications and status reporting reflect the current organization. No new tasks, templates, or automated workflows are being introduced." />
+      </record>
+      <record id="02977402-7712-f111-8341-000d3a353b05">
+        <field name="cr809_projectrequestid" value="02977402-7712-f111-8341-000d3a353b05" />
+        <field name="cr809_requestid" value="ReqId-0002" />
+        <field name="cr809_requesttitle" value="Demo Dry Run" />
+        <field name="cr809_requestor" value="Matthew Karr" />
+        <field name="cr809_requestoremail" value="admin@M365x38311559.onmicrosoft.com" />
+        <field name="cr809_requestdate" value="2026-02-27T05:00:00.0000000Z" />
+        <field name="cr809_desiredstartdate" value="2026-02-25T00:00:00.0000000" />
+        <field name="cr809_desiredenddate" value="2026-02-25T00:00:00.0000000" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_classification" value="804270000" />
+        <field name="cr809_aiclassificationsuggestion" value="Automation" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" lookupentityname="Automation" />
+        <field name="cr809_assignedpm" value="36c6fb31-3109-f111-8406-000d3a34125a" lookupentity="systemuser" lookupentityname="Isaiah Langer" />
+        <field name="cr809_approvedby" value="ead63052-3109-f111-8406-000d3a353b05" lookupentity="systemuser" lookupentityname="Miriam Graham" />
+        <field name="cr809_approvaldate" value="2026-02-25T05:00:00.0000000Z" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>

@@ -1,0 +1,76 @@
+﻿
+<entities xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" timestamp="2026-03-11T03:17:04.5936082Z">
+  <entity name="cr809_project" displayname="Project">
+    <records>
+      <record id="577e8790-0712-f111-8341-000d3a34125a">
+        <field name="cr809_projectid" value="577e8790-0712-f111-8341-000d3a34125a" />
+        <field name="cr809_projectname" value="Material Handling AGV Deployment" />
+        <field name="cr809_projectnumber" value="PRJ-AGV-001" />
+        <field name="cr809_description" value="AGV deployment demo timeline: asset schedules are rolled up from activity dates, with in-progress and blocked work clearly represented." />
+        <field name="cr809_createddate" value="2026-03-11T00:00:00.0000000Z" />
+        <field name="cr809_startdate" value="2026-03-04T00:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-04-26T00:00:00.0000000Z" />
+        <field name="cr809_status" value="804270003" />
+        <field name="cr809_progress" value="46" />
+        <field name="cr809_risklevel" value="2" />
+        <field name="cr809_projectrequest" value="75663d58-da10-f111-8341-000d3a34125a" lookupentity="cr809_projectrequest" lookupentityname="Material Handling AGV Deployment" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" lookupentityname="Automation" />
+      </record>
+      <record id="1fa7e380-c911-f111-8341-000d3a353b05">
+        <field name="cr809_projectid" value="1fa7e380-c911-f111-8341-000d3a353b05" />
+        <field name="cr809_projectname" value="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_projectnumber" value="PRJ-EVB-001" />
+        <field name="cr809_description" value="Program scoped from approved request: EV Battery Pack Pilot Line Setup. Relationships seeded to project assets and execution activities." />
+        <field name="cr809_createddate" value="2026-02-27T06:00:00.0000000Z" />
+        <field name="cr809_startdate" value="2026-02-27T06:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-05-17T00:00:00.0000000Z" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_progress" value="44" />
+        <field name="cr809_risklevel" value="3" />
+        <field name="cr809_projectrequest" value="70663d58-da10-f111-8341-000d3a34125a" lookupentity="cr809_projectrequest" lookupentityname="EV Battery Pack Pilot Line Setup" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" lookupentityname="Automation" />
+      </record>
+      <record id="acf3f3d1-ff11-f111-8341-000d3a353b05">
+        <field name="cr809_projectid" value="acf3f3d1-ff11-f111-8341-000d3a353b05" />
+        <field name="cr809_projectname" value="Weld Cell Robot Reprogramming" />
+        <field name="cr809_projectnumber" value="PRJ-WELD-001" />
+        <field name="cr809_description" value="Program scoped from approved request: Weld Cell Robot Reprogramming. Relationships seeded to project assets and execution activities." />
+        <field name="cr809_createddate" value="2026-02-22T06:00:00.0000000Z" />
+        <field name="cr809_startdate" value="2026-02-22T06:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-04-23T00:00:00.0000000Z" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_progress" value="49" />
+        <field name="cr809_risklevel" value="2" />
+        <field name="cr809_projectrequest" value="6c663d58-da10-f111-8341-000d3a34125a" lookupentity="cr809_projectrequest" lookupentityname="Weld Cell Robot Reprogramming" />
+        <field name="cr809_projecttemplate" value="023697ea-b242-43d5-8c7c-447ca3f3a545" lookupentity="cr809_projecttemplate" lookupentityname="Automation" />
+      </record>
+      <record id="642cd76e-7812-f111-8341-000d3a353b05">
+        <field name="cr809_projectid" value="642cd76e-7812-f111-8341-000d3a353b05" />
+        <field name="cr809_projectname" value="Quality Inspection Vision System Rollout" />
+        <field name="cr809_projectnumber" value="PRJ-VIS-001" />
+        <field name="cr809_description" value="Program scoped from approved request: Quality Inspection Vision System Rollout. Relationships seeded to project assets and execution activities." />
+        <field name="cr809_createddate" value="2026-02-16T06:00:00.0000000Z" />
+        <field name="cr809_startdate" value="2026-02-16T06:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-04-28T00:00:00.0000000Z" />
+        <field name="cr809_status" value="804270001" />
+        <field name="cr809_progress" value="41" />
+        <field name="cr809_risklevel" value="2" />
+        <field name="cr809_projectrequest" value="76663d58-da10-f111-8341-000d3a34125a" lookupentity="cr809_projectrequest" lookupentityname="Quality Inspection Vision System Rollout" />
+        <field name="cr809_projecttemplate" value="1c73e483-15df-4dba-9bb3-b1bed3bc84ba" lookupentity="cr809_projecttemplate" lookupentityname="Production" />
+      </record>
+      <record id="ef084d29-f71c-f111-88b1-000d3a353b05">
+        <field name="cr809_projectid" value="ef084d29-f71c-f111-88b1-000d3a353b05" />
+        <field name="cr809_projectname" value="Shutdown Maintenance Planning System" />
+        <field name="cr809_projectnumber" value="PRO-0005" />
+        <field name="cr809_description" value="Deploy a maintenance planning system to optimize annual shutdown activities, resource allocation, and critical path scheduling for maximum efficiency." />
+        <field name="cr809_createddate" value="2026-03-10T12:00:00.0000000Z" />
+        <field name="cr809_startdate" value="2026-03-24T00:00:00.0000000Z" />
+        <field name="cr809_enddate" value="2026-05-29T00:00:00.0000000Z" />
+        <field name="cr809_status" value="804270000" />
+        <field name="cr809_projectrequest" value="8b663d58-da10-f111-8341-000d3a34125a" lookupentity="cr809_projectrequest" lookupentityname="Shutdown Maintenance Planning System" />
+        <field name="cr809_projecttemplate" value="ff08a809-b0ea-4d72-aa81-d50c10f83568" lookupentity="cr809_projecttemplate" lookupentityname="Maintenance" />
+      </record>
+    </records>
+    <m2mrelationships />
+  </entity>
+</entities>
