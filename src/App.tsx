@@ -20,173 +20,18 @@ import { Cr809_activitiesService } from './generated/services/Cr809_activitiesSe
 import type { Cr809_projects } from './generated/models/Cr809_projectsModel'
 import type { Cr809_assets } from './generated/models/Cr809_assetsModel'
 import type { Cr809_activities } from './generated/models/Cr809_activitiesModel'
-import { Cr809_activitiescr809_status } from './generated/models/Cr809_activitiesModel'
 import { Dashboard } from './components/Dashboard'
 import type { DashTaskRecord } from './components/Dashboard'
 import { DetailPanel } from './components/DetailPanel'
+import { buildTaskData, normalizeGuid, addDays } from './utils/buildTaskData'
+import type { TaskRecord } from './utils/buildTaskData'
+import { useDataverseMutations } from './services/useDataverseMutations'
+import type { AssetStatusKey, ProjectStatusKey } from './services/dataverseFieldMaps'
 import logoUrl from './assets/logo.png'
 import './App.css'
 
 type TimelineMode = 'day' | 'week' | 'month'
 type AppTab = 'gantt' | 'insights'
-
-type ActivityStatus = 'NotStarted' | 'InProgress' | 'Completed' | 'Blocked'
-
-type TaskRecord = {
-  TaskID: string
-  TaskName: string
-  StartDate: Date
-  EndDate: Date
-  ParentID?: string
-  ItemType: 'Project' | 'Asset' | 'Activity'
-  SourceId: string
-  AssetId?: string
-  Sequence?: number
-  DurationDays?: number
-  Progress: number
-  Status?: ActivityStatus
-  IsVendorActivity?: boolean
-  Predecessor?: string
-}
-
-function normalizeGuid(value?: string): string | undefined {
-  if (!value) return undefined
-  return value.replace(/[{}]/g, '').trim().toLowerCase()
-}
-
-function parseDate(value?: string): Date {
-  if (!value) return new Date()
-  const parsed = new Date(value)
-  return Number.isNaN(parsed.getTime()) ? new Date() : parsed
-}
-
-function addDays(base: Date, days: number): Date {
-  const next = new Date(base)
-  next.setDate(next.getDate() + days)
-  return next
-}
-
-function toDataverseDate(date: Date): string {
-  return date.toISOString()
-}
-
-function getDurationDays(activity: Cr809_activities): number {
-  const raw = Number(activity.cr809_duration)
-  if (Number.isNaN(raw) || raw <= 0) return 1
-  return Math.max(1, Math.round(raw))
-}
-
-function buildTaskData(
-  projects: Cr809_projects[],
-  assets: Cr809_assets[],
-  activities: Cr809_activities[],
-): TaskRecord[] {
-  const projectIdSet = new Set<string>()
-
-  const projectTasks: TaskRecord[] = projects.map((project) => {
-    const projectId = normalizeGuid(project.cr809_projectid) ?? project.cr809_projectid
-    projectIdSet.add(projectId)
-    const start = parseDate(project.cr809_startdate)
-    const end = parseDate(project.cr809_enddate)
-    return {
-      TaskID: `project:${projectId}`,
-      SourceId: projectId,
-      ItemType: 'Project',
-      TaskName: project.cr809_projectname,
-      StartDate: start,
-      EndDate: end,
-      Progress: Math.min(100, Math.max(0, Number(project.cr809_progress ?? 0))),
-    }
-  })
-
-  const linkedAssetSourceIds = new Set<string>()
-
-  const assetTasks: TaskRecord[] = assets.map((asset) => {
-    const assetId = normalizeGuid(asset.cr809_assetid) ?? asset.cr809_assetid
-    const parentProjectId = normalizeGuid(asset._cr809_project_value)
-    const start = parseDate(asset.cr809_startdate)
-    const end = parseDate(asset.cr809_enddate)
-    const parentId = parentProjectId && projectIdSet.has(parentProjectId) ? `project:${parentProjectId}` : undefined
-
-    if (parentId) linkedAssetSourceIds.add(assetId)
-
-    return {
-      TaskID: `asset:${assetId}`,
-      SourceId: assetId,
-      ItemType: 'Asset',
-      ParentID: parentId,
-      TaskName: asset.cr809_assetname,
-      StartDate: start,
-      EndDate: end,
-      Progress: Math.min(100, Math.max(0, Number(asset.cr809_progress ?? 0))),
-    }
-  })
-
-  const byAsset = new Map<string, Cr809_activities[]>()
-  for (const activity of activities) {
-    const assetId = normalizeGuid(activity._cr809_asset_value ?? activity.cr809_assetid)
-    if (!assetId) continue
-    const list = byAsset.get(assetId) ?? []
-    list.push(activity)
-    byAsset.set(assetId, list)
-  }
-
-  const activityTasks: TaskRecord[] = []
-  for (const [assetId, list] of byAsset.entries()) {
-    const sorted = [...list].sort((a, b) => {
-      const aSeq = Number(a.cr809_sequence ?? Number.MAX_SAFE_INTEGER)
-      const bSeq = Number(b.cr809_sequence ?? Number.MAX_SAFE_INTEGER)
-      return aSeq - bSeq
-    })
-
-    let previousTaskId: string | undefined
-    for (const activity of sorted) {
-      const durationDays = getDurationDays(activity)
-      const start = parseDate(activity.cr809_startdate)
-      const end = activity.cr809_enddate ? parseDate(activity.cr809_enddate) : addDays(start, durationDays - 1)
-      const activityId = normalizeGuid(activity.cr809_activityid) ?? activity.cr809_activityid
-      const parentAssetExists = linkedAssetSourceIds.has(assetId)
-      const taskId = `activity:${activityId}`
-
-      activityTasks.push({
-        TaskID: taskId,
-        SourceId: activityId,
-        AssetId: assetId,
-        ItemType: 'Activity',
-        ParentID: parentAssetExists ? `asset:${assetId}` : undefined,
-        TaskName: activity.cr809_activityname,
-        StartDate: start,
-        EndDate: end,
-        Sequence: Number(activity.cr809_sequence ?? 0),
-        DurationDays: durationDays,
-        Progress: Math.min(100, Math.max(0, Number(activity.cr809_progress ?? 0))),
-        Status: activity.cr809_status !== undefined
-          ? Cr809_activitiescr809_status[activity.cr809_status as keyof typeof Cr809_activitiescr809_status] as ActivityStatus
-          : undefined,
-        IsVendorActivity: Number(activity.cr809_isvendoractivity ?? 0) === 1,
-        Predecessor: previousTaskId ? `${previousTaskId}FS` : undefined,
-      })
-
-      previousTaskId = taskId
-    }
-  }
-
-  const linkedAssets = assetTasks.filter((asset) => Boolean(asset.ParentID))
-  const linkedActivities = activityTasks.filter((activity) => Boolean(activity.ParentID))
-
-  const allRows = [...projectTasks, ...linkedAssets, ...linkedActivities]
-
-  return allRows
-    .filter((row) => !!row.TaskName)
-    .map((row) => {
-      const start = parseDate(row.StartDate.toISOString())
-      const end = parseDate(row.EndDate.toISOString())
-      if (end < start) {
-        return { ...row, StartDate: start, EndDate: start }
-      }
-      return { ...row, StartDate: start, EndDate: end }
-    })
-}
 
 // ===== Gantt grid column templates =====
 
@@ -272,6 +117,62 @@ function App() {
   const [debugInfo, setDebugInfo] = useState<string>('')
   const [lastSyncedAt, setLastSyncedAt] = useState<Date | null>(null)
 
+  const loadDataverseData = useCallback(async (mode: 'initial' | 'refresh' = 'refresh') => {
+    if (mode === 'initial') {
+      setIsLoading(true)
+      setLoadError(null)
+      setDebugInfo('')
+    } else {
+      setIsRefreshing(true)
+    }
+
+    try {
+      const projectLoad = await Cr809_projectsService.getAll({ top: 5000 })
+      const assetLoad = await Cr809_assetsService.getAll({ top: 5000 })
+      const activityLoad = await Cr809_activitiesService.getAll({ top: 5000 })
+
+      const projects = projectLoad.success ? projectLoad.data ?? [] : []
+      const assets = assetLoad.success ? assetLoad.data ?? [] : []
+      const activities = activityLoad.success ? activityLoad.data ?? [] : []
+
+      const loadMessages: string[] = [
+        `projects=${projects.length}`,
+        `assets=${assets.length}`,
+        `activities=${activities.length}`,
+      ]
+
+      if (!projectLoad.success && projectLoad.error) loadMessages.push(`project-error=${projectLoad.error.message}`)
+      if (!assetLoad.success && assetLoad.error) loadMessages.push(`asset-error=${assetLoad.error.message}`)
+      if (!activityLoad.success && activityLoad.error) loadMessages.push(`activity-error=${activityLoad.error.message}`)
+
+      setDebugInfo(loadMessages.join(' | '))
+      setRawProjects(projects)
+      setRawAssets(assets)
+      setRawActivities(activities)
+
+      const mapped = buildTaskData(projects, assets, activities)
+
+      const orphanAssets = mapped.filter((item) => item.ItemType === 'Asset' && !item.ParentID).length
+      const orphanActivities = mapped.filter((item) => item.ItemType === 'Activity' && !item.ParentID).length
+
+      setDebugInfo((prev) => `${prev} | mapped=${mapped.length} | orphanAssets=${orphanAssets} | orphanActivities=${orphanActivities}`)
+
+      setTasks(mapped)
+      setDataVersion((value) => value + 1)
+      setLastSyncedAt(new Date())
+      setLoadError(null)
+    } catch (error) {
+      const message = error instanceof Error ? error.message : 'Unknown error loading Dataverse data.'
+      setLoadError(message)
+      setDebugInfo(`loader-exception=${message}`)
+    } finally {
+      if (mode === 'initial') setIsLoading(false)
+      setIsRefreshing(false)
+    }
+  }, [])
+
+  const mutations = useDataverseMutations({ onRefresh: () => void loadDataverseData('refresh') })
+
   // Maps for DetailPanel lookups
   const rawProjectMap = useMemo(
     () => new Map(rawProjects.map((p) => [normalizeGuid(p.cr809_projectid) ?? '', p])),
@@ -336,60 +237,6 @@ function App() {
       bottomTier: { unit: 'Day', format: 'EEE' },
     }
   }, [timelineMode])
-
-  const loadDataverseData = useCallback(async (mode: 'initial' | 'refresh' = 'refresh') => {
-    if (mode === 'initial') {
-      setIsLoading(true)
-      setLoadError(null)
-      setDebugInfo('')
-    } else {
-      setIsRefreshing(true)
-    }
-
-    try {
-      const projectLoad = await Cr809_projectsService.getAll({ top: 5000 })
-      const assetLoad = await Cr809_assetsService.getAll({ top: 5000 })
-      const activityLoad = await Cr809_activitiesService.getAll({ top: 5000 })
-
-      const projects = projectLoad.success ? projectLoad.data ?? [] : []
-      const assets = assetLoad.success ? assetLoad.data ?? [] : []
-      const activities = activityLoad.success ? activityLoad.data ?? [] : []
-
-      const loadMessages: string[] = [
-        `projects=${projects.length}`,
-        `assets=${assets.length}`,
-        `activities=${activities.length}`,
-      ]
-
-      if (!projectLoad.success && projectLoad.error) loadMessages.push(`project-error=${projectLoad.error.message}`)
-      if (!assetLoad.success && assetLoad.error) loadMessages.push(`asset-error=${assetLoad.error.message}`)
-      if (!activityLoad.success && activityLoad.error) loadMessages.push(`activity-error=${activityLoad.error.message}`)
-
-      setDebugInfo(loadMessages.join(' | '))
-      setRawProjects(projects)
-      setRawAssets(assets)
-      setRawActivities(activities)
-
-      const mapped = buildTaskData(projects, assets, activities)
-
-      const orphanAssets = mapped.filter((item) => item.ItemType === 'Asset' && !item.ParentID).length
-      const orphanActivities = mapped.filter((item) => item.ItemType === 'Activity' && !item.ParentID).length
-
-      setDebugInfo((prev) => `${prev} | mapped=${mapped.length} | orphanAssets=${orphanAssets} | orphanActivities=${orphanActivities}`)
-
-      setTasks(mapped)
-      setDataVersion((value) => value + 1)
-      setLastSyncedAt(new Date())
-      setLoadError(null)
-    } catch (error) {
-      const message = error instanceof Error ? error.message : 'Unknown error loading Dataverse data.'
-      setLoadError(message)
-      setDebugInfo(`loader-exception=${message}`)
-    } finally {
-      if (mode === 'initial') setIsLoading(false)
-      setIsRefreshing(false)
-    }
-  }, [])
 
   useEffect(() => {
     void loadDataverseData('initial')
@@ -514,37 +361,77 @@ function App() {
     }
 
     for (const activity of updatedActivities) {
-      await Cr809_activitiesService.update(activity.SourceId, {
-        cr809_startdate: toDataverseDate(activity.StartDate),
-        cr809_enddate: toDataverseDate(activity.EndDate),
-        cr809_progress: activity.Progress,
+      await mutations.updateActivity(activity.SourceId, {
+        startDate: activity.StartDate,
+        endDate: activity.EndDate,
+        progress: activity.Progress,
       })
     }
   }
 
   async function handleActionComplete(args: { requestType?: string; data?: unknown }): Promise<void> {
-    if (args.requestType !== 'save' || !args.data) return
+    if (!args.requestType || !args.data) return
 
     const row = args.data as Partial<TaskRecord>
-    if (!row.SourceId || row.ItemType !== 'Activity' || !row.StartDate || !row.EndDate) return
+    if (!row.SourceId || !row.ItemType) return
 
-    const edited: TaskRecord = {
-      TaskID: row.TaskID ?? `activity:${row.SourceId}`,
-      SourceId: row.SourceId,
-      ItemType: 'Activity',
-      ParentID: row.ParentID,
-      AssetId: row.AssetId,
-      TaskName: row.TaskName ?? 'Activity',
-      StartDate: new Date(row.StartDate),
-      EndDate: new Date(row.EndDate),
-      Sequence: row.Sequence,
-      DurationDays: row.DurationDays,
-      Progress: row.Progress ?? 0,
-      Status: row.Status,
-      Predecessor: row.Predecessor,
+    // SAVE: Handle edits to existing records
+    if (args.requestType === 'save') {
+      const itemType = row.ItemType
+
+      if (itemType === 'Activity') {
+        if (!row.StartDate || !row.EndDate) return
+
+        const edited: TaskRecord = {
+          TaskID: row.TaskID ?? `activity:${row.SourceId}`,
+          SourceId: row.SourceId,
+          ItemType: 'Activity',
+          ParentID: row.ParentID,
+          AssetId: row.AssetId,
+          TaskName: row.TaskName ?? 'Activity',
+          StartDate: new Date(row.StartDate),
+          EndDate: new Date(row.EndDate),
+          Sequence: row.Sequence,
+          DurationDays: row.DurationDays,
+          Progress: row.Progress ?? 0,
+          Status: row.Status,
+          Predecessor: row.Predecessor,
+        }
+
+        await cascadeActivityDates(edited)
+      } else if (itemType === 'Asset') {
+        await mutations.updateAsset(row.SourceId, {
+          name: row.TaskName,
+          status: row.Status as AssetStatusKey | undefined,
+          startDate: row.StartDate ? new Date(row.StartDate) : undefined,
+          endDate: row.EndDate ? new Date(row.EndDate) : undefined,
+          progress: row.Progress,
+        })
+      } else if (itemType === 'Project') {
+        await mutations.updateProject(row.SourceId, {
+          name: row.TaskName,
+          status: row.Status as ProjectStatusKey | undefined,
+          startDate: row.StartDate ? new Date(row.StartDate) : undefined,
+          endDate: row.EndDate ? new Date(row.EndDate) : undefined,
+          progress: row.Progress,
+        })
+      }
     }
 
-    await cascadeActivityDates(edited)
+    // DELETE: Handle record deletion
+    if (args.requestType === 'delete') {
+      const itemType = row.ItemType
+
+      if (itemType === 'Activity') {
+        await mutations.deleteActivity(row.SourceId)
+      } else if (itemType === 'Asset') {
+        await mutations.deleteAsset(row.SourceId)
+      }
+    }
+
+    // ADD: Handle new record creation
+    // Note: For now, we skip 'add' because it requires parent detection logic
+    // and proper field initialization. This will be handled in a future task.
   }
 
   // Prevent taskbar dragging for non-activity rows
@@ -739,6 +626,8 @@ function App() {
       {!isLoading && lastSyncedAt ? (
         <p className="status-line">Live sync active. Last updated {lastSyncedAt.toLocaleTimeString('en-US')}.</p>
       ) : null}
+      {mutations.isMutating ? <p className="status-line">Saving changes...</p> : null}
+      {mutations.lastError ? <p className="status-line error">Save error: {mutations.lastError}</p> : null}
       {loadError ? <p className="status-line error">Failed to load Dataverse data: {loadError}</p> : null}
       {!isLoading && !loadError && tasks.length === 0 ? <p className="status-line">No project/asset/activity rows found.</p> : null}
       {!isLoading && debugInfo ? <p className="status-line debug">{debugInfo}</p> : null}
@@ -822,13 +711,13 @@ function App() {
                   field="TaskName"
                   headerText="Task"
                   width="230"
+                  allowEditing={true}
                 />
                 <ColumnDirective
                   field="Status"
                   headerText="Status"
                   width="115"
                   template={gcStatusTemplate as unknown as Function}
-                  allowEditing={false}
                   allowSorting={false}
                 />
                 <ColumnDirective
@@ -836,22 +725,23 @@ function App() {
                   headerText="Start"
                   width="95"
                   template={gcStartDateTemplate as unknown as Function}
-                  allowEditing={false}
                   allowSorting={false}
+                  editType="datepickeredit"
                 />
                 <ColumnDirective
                   field="EndDate"
                   headerText="End"
                   width="95"
                   template={gcEndDateTemplate as unknown as Function}
-                  allowEditing={false}
                   allowSorting={false}
+                  editType="datepickeredit"
                 />
                 <ColumnDirective
                   field="Progress"
                   headerText="Progress"
                   width="130"
                   template={gcProgressTemplate as unknown as Function}
+                  allowEditing={true}
                 />
               </ColumnsDirective>
               <Inject services={[Edit, Filter, Sort, Toolbar, Selection, DayMarkers, Reorder, Resize]} />
@@ -869,6 +759,7 @@ function App() {
         rawAssets={rawAssets}
         rawActivities={rawActivities}
         onClose={() => setSelectedTask(null)}
+        onRefresh={() => void loadDataverseData('refresh')}
       />
     </main>
   )

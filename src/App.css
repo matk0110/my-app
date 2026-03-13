@@ -1213,6 +1213,143 @@
   font-style: italic;
 }
 
+/* ===== Edit Mode Styles ===== */
+
+.dp-header-actions {
+  position: sticky;
+  top: 42px;
+  background: #fff;
+  padding: 0.75rem 1.25rem;
+  margin: -0.5rem -1.25rem 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 1;
+}
+
+.dp-action-btn {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.dp-edit-btn {
+  background: #fff;
+  border-color: #d1d5db;
+  color: #374151;
+}
+
+.dp-edit-btn:hover:not(:disabled) {
+  background: #f9fafb;
+  border-color: #9ca3af;
+}
+
+.dp-edit-icon {
+  font-size: 0.9rem;
+}
+
+.dp-save-btn {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+.dp-save-btn:hover:not(:disabled) {
+  background: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+.dp-cancel-btn {
+  background: #fff;
+  border-color: #d1d5db;
+  color: #6b7280;
+}
+
+.dp-cancel-btn:hover:not(:disabled) {
+  background: #f9fafb;
+  border-color: #9ca3af;
+}
+
+.dp-action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.dp-input,
+.dp-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.85rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: #fff;
+  color: #374151;
+  font-family: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.dp-input:focus,
+.dp-textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.dp-textarea {
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.dp-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.dp-footer-actions {
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+  padding: 0.75rem 1.25rem;
+  margin: 0.75rem -1.25rem -2rem;
+  border-top: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dp-delete-btn {
+  background: #dc2626;
+  border-color: #dc2626;
+  color: #fff;
+}
+
+.dp-delete-btn:hover:not(:disabled) {
+  background: #b91c1c;
+  border-color: #b91c1c;
+}
+
+.dp-error-banner {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.dp-error-banner strong {
+  font-weight: 700;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
   .dash-kpi-strip {
